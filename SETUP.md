@@ -36,7 +36,7 @@ cp src/.env.debug src/.env
 # Generate a secure secret key using the uuid module
 sed "s/your-secret-key/$(python -c 'import uuid; print(str(uuid.uuid4()));')/" src/.env -i
 
-
+## Optional
 # Set the environment variables in your terminal sesssion
 while read line; do export $line; done < src/.env
 ```
