@@ -12,4 +12,4 @@ DATABASES = {
     }
 }
 
-print(DATABASES['default'])
+print(DATABASES["default"])
