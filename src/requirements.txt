@@ -1,4 +1,4 @@
-Django==3.2.13
+Django==3.2.14
 django-celery==3.3.1
 django-contrib-comments==2.1.0
 django-crispy-forms==1.12.0
